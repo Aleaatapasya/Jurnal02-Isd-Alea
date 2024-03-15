@@ -79,8 +79,11 @@ public class main {
                 // jika user memilih menu 5. Keluar
                 case 5:
                     System.exit(0);
+                    break;
+                default:
+                    System.out.println("input berlebih");
             }
-            break;
+
         }
     }
 
